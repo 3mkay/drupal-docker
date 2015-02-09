@@ -1,0 +1,7 @@
+defaults
+
+account mail
+host mail
+from me@example.com
+
+account default: mail
