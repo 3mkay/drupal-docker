@@ -8,7 +8,7 @@ A collection of containers that follows the guidelines and best practice stated 
 
 ## How it works
 
-1: You edit the ```settings.sh```
-1: You run ```build.sh```
-1: You run either ```php53.sh```, ```php54.sh``` or ```php55.sh```
-1: You websites are now available at http://localhost
+ 1. You edit the ```settings.sh```
+ 1. You run ```build.sh```
+ 1. You run either ```php53.sh```, ```php54.sh``` or ```php55.sh```
+ 1. You websites are now available at http://localhost
