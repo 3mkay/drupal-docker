@@ -12,3 +12,17 @@ A collection of containers that follows the guidelines and best practice stated 
  1. You run ```build.sh```
  1. You run either ```php53.sh```, ```php54.sh``` or ```php55.sh```
  1. You websites are now available at http://localhost
+
+## In details
+
+Here are some more in depth information on how it is working and how it is meant to be used.
+
+### The configuration
+
+### The web server container
+
+### The database server
+
+### The mail server
+
+### The Solr server
