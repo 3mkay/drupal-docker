@@ -4,7 +4,7 @@
 A collection of docker build scripts that can be build specificly with Drupal in mind.
 
 ## This is not:
-A collection of containers that follows the guidelines and best practice stated at docker.com. The reason for this is, that I want a developer environment that is easy to use, not correct to use. So I try to make Docker stay as much in the background as posible.
+A collection of containers that follows the guidelines and best practice stated at docker.com. The reason for this is, that I want a developer environment that is easy to use, not correct to use. So I try to make Docker stay as much in the background as posible. So if you are wondering why I surgest that you run one docker instance at the time, for all websites, and not a container per web site, this is why.
 
 ## How it works
 
