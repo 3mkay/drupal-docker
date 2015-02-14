@@ -9,7 +9,7 @@ A collection of containers that follows the guidelines and best practice stated 
 ## How it works
 
  1. You edit the ```settings.sh```
- 1. You run ```build.sh```
+ 1. You run ```build.sh``` (if you feel the need to build the containers yourself. If you skipe this, pre-build containers will be downloaded instead)
  1. You run either ```php53.sh```, ```php54.sh``` or ```php55.sh```
  1. You websites are now available at http://localhost
  1. To stop your containers, run ```stop.sh```
