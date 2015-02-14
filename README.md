@@ -12,6 +12,8 @@ A collection of containers that follows the guidelines and best practice stated 
  1. You run ```build.sh```
  1. You run either ```php53.sh```, ```php54.sh``` or ```php55.sh```
  1. You websites are now available at http://localhost
+ 1. To stop your containers, run ```stop.sh```
+ 1. If you wan't to clean up unneeded images (for saving space) run ```cleanup.sh```
 
 ## In details
 
