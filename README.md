@@ -19,6 +19,10 @@ Here are some more in depth information on how it is working and how it is meant
 
 ### The configuration
 
+The environment dependant settings, like where your web root is, what user the web server should be running as, e.t.c, is set in the ```settings.sh```.
+
+You would probably like to edit the files directly from your host, to get as much speed as possible, when using tools like git, drush and CodeSniffer. So having the files, not contained, and shared with the docker instances, is the best way to do it. To keep your permissions on the files, even if they are created/altered by the docker instance, you have to use the same username for running the contained web server, as the username that needs access to the files on the host.
+
 ### The web server container
 
 ### The database server
