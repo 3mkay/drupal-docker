@@ -1,5 +1,5 @@
 FROM ubuntu:utopic
-MAINTAINER Tommy Jørgensen <tlyngej@gmail.com>
+MAINTAINER Tommy Lynge Jørgensen <tlyngej@gmail.com>
 
 RUN apt-get update && \
     apt-get install -y mariadb-server pwgen && \
@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-#change bind address to 0.0.0.0
+# Change bind address to 0.0.0.0
 RUN sed -i -r 's/bind-address.*$/bind-address = 0.0.0.0/' /etc/mysql/my.cnf
 
 ADD create_mariadb_admin_user.sh /create_mariadb_admin_user.sh

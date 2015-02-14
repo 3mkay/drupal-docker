@@ -46,14 +46,11 @@ RUN echo "xdebug.profiler_output_name = xdebug.out.%t" >> /etc/php5/conf.d/xdebu
 RUN echo "xdebug.profiler_output_dir = /tmp" >> /etc/php5/conf.d/xdebug.ini
 RUN echo "xdebug.profiler_enable_trigger = 1" >> /etc/php5/conf.d/xdebug.ini
 
-RUN useradd tlj -m -s /bin/bash
-RUN sed -i "s/www-data/tlj/g" /etc/apache2/envvars
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN a2enmod rewrite
 
 # Add image configuration and scripts
 ADD msmtp /etc/msmtp
-RUN chown tlj:tlj /etc/msmtp
 RUN chmod 600 /etc/msmtp
 ADD run.sh /run.sh
 RUN chmod 755 /*.sh
