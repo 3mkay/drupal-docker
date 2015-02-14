@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 source settings.sh
-./cleanup.sh
+./stop.sh
 ./mail.sh
 ./mariadb.sh
 ./solr.sh
