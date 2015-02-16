@@ -62,13 +62,13 @@ I recommend that you alter your hostfile , so that 127.0.0.1 resolves to db. In 
 
 ### The mail server
 
-All mails sent from the web servers will catched by a docker container, running MailCatcher. You can see all mails at http://localhost:1080.
+All mails sent from the web servers will caught by a docker container, running MailCatcher. You can see all mails at http://localhost:1080.
 
 You won't be able to send mails to the "real" world through Drupal. They will all end up here.
 
 ### The Solr server
 
-The solr instance can be reaced by using:
+The solr instance can be reached using:
 
 - Host: solr
 - Port: 8983
@@ -78,4 +78,4 @@ No authentication needed.
 
 The solr configuration is specific for the Drupal module ```search_api_solr```, so it won't do much good for pretty much any other needs.
 
-The search indexes are NOT keept post container shutdown. Every time you restart your containers, you will have to rebuild the indexes.
+The search indexes are NOT kept post container shutdown. Every time you restart your containers, you will have to rebuild the indexes.
