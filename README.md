@@ -56,7 +56,7 @@ You can access the from Drupal by using:
 - Username: admin
 - Password: root (this can be changed in the ```settings.sh```)
 
-The folder that contains the database tables can be set in the ```settings.php``` too. You don't wan't your database to be gone, when you shut down the instance, do you? ;-)
+The folder that contains the database tables can be set in the ```settings.sh``` too. You don't wan't your database to be gone, when you shut down the instance, do you? ;-)
 
 I recommend that you alter your hostfile , so that 127.0.0.1 resolves to db. In that way, you can use drush in on your host system.
 
