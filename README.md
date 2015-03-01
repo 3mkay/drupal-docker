@@ -19,6 +19,9 @@ A collection of containers that follows the guidelines and best practice stated 
 
 Here is some more in-depth information on how it is working and how it is meant to be used.
 
+### Requirements
+ - Docker version >= 1.5 (Earlier versions have problems with port allocation.)
+
 ### The configuration
 
 The environment dependent settings, like where your web root is, what user the web server should be running as, etc., is set in the ```settings.sh```.
